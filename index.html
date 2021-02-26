@@ -694,7 +694,7 @@
                     var title = $("#title").val();
                     var desc = $("#description").val();
 
-                    price = web3js.toWei(price);
+                    price = web3.utils.toWei(price);
                     _publish(title, desc, hash, price)
 
                 },
@@ -709,7 +709,7 @@
 
                 sell: function sell(id) {
                     var price = $("#price_sell").val();
-                    price = web3js.toWei(price);
+                    price = web3.utils.toWei(price);
 
                     _sell(id, price);
                 }
