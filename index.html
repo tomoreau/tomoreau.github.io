@@ -19,6 +19,20 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
     <link rel="stylesheet" href="./semantic/semantic.min.css" />
 
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-130401695-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- End Google Analytics -->
 
     <style>
 
@@ -102,9 +116,6 @@
                         NFTS
                     </h1>
                     <h2>Verified NFT Market Place</h2>
-                    <button class="btn btn-primary" id="btn-connect">
-  Connect wallet
-</button>
                 </div>
             </div>
         </div>
@@ -269,23 +280,15 @@
 
     </div>
 
-    
-    
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://unpkg.com/@metamask/legacy-web3@latest/dist/metamask.web3.min.js"></script>
-    
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="./semantic/semantic.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
     <script src="./js/contract.js"></script>　
     <script src="./js/buffer.js"></script>　
-    <script src="./js/ipfs.js"></script>
-    
+    <script src="./js/ipfs.js"></script>　
 
-    
-
-    
     <script>
 
         var userAccount;
